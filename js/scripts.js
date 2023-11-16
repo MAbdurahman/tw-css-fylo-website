@@ -11,6 +11,8 @@ $(window).on('load', function () {
 ================================================*/
 $(function () {
 
+    console.log('The DOM is ready, ')
+
     // https://www.freecodecamp.org/news/how-to-build-a-dark-mode-switcher-with-tailwind-css-and-flowbite
     if (
         localStorage.getItem('color-theme') === 'dark' ||
